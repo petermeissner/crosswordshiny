@@ -1,14 +1,16 @@
 Package: crosswordshiny
 Title: Standalone HTML pages and Shiny apps for the crossword package
 Version: 0.1.0
+Date: 2017-11-22
 Authors@R: person(
   "Peter", "Meissner", email = "retep.meissner@gmail.com", role = c("aut", "cre")
   )
-Description: Provides tooling for interactive interactive widgets for the 
-  crosswrod package - like standalone HTML pages and shiny apps. 
+Description: Provides tooling for interactive HTML pages and widgets for the 
+  crosswrod package. 
 Depends: R (>= 3.4.2)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: crossword (>= 0.2.0)
-
+URL: https://github.com/petermeissner/crosswordshiny
+BugReports: https://github.com/petermeissner/crosswordshiny/issues
