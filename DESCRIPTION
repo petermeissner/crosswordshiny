@@ -2,8 +2,19 @@ Package: crosswordshiny
 Title: Standalone HTML pages and Shiny apps for the crossword package
 Version: 0.1.0
 Date: 2017-11-22
-Authors@R: person(
-  "Peter", "Meissner", email = "retep.meissner@gmail.com", role = c("aut", "cre")
+Authors@R: c(
+    person(
+      given  = "Peter", 
+      family = "Meissner", 
+      email  = "retep.meissner@gmail.com", 
+      role   = c("aut", "cre")
+    ),
+    person(
+      given   = "Jesse", 
+      family  = "Weisbeck", 
+      role    = c("cph"), 
+      comment = "Author of Crossword.js; https://github.com/jweisbeck/Crossword"
+    )
   )
 Description: Provides tooling for interactive HTML pages and widgets for the 
   crosswrod package. 
@@ -14,3 +25,4 @@ LazyData: true
 Imports: crossword (>= 0.2.0)
 URL: https://github.com/petermeissner/crosswordshiny
 BugReports: https://github.com/petermeissner/crosswordshiny/issues
+RoxygenNote: 6.0.1

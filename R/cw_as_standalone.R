@@ -9,7 +9,7 @@
 #'
 #' @export
 #'
-#'
+#' @import htmltools
 #'
 cw_as_standalone <- function(crossword){
 
